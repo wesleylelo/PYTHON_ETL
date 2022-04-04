@@ -5,7 +5,7 @@ import mysql.connector
 mydb = mysql.connector.connect(
   host="localhost",
   user="root",
-  password="Wsbolelo1998@",
+  password="",
   database="pyton_db_test"
 )
 dados_excel = pd.read_excel("C:\\Users\\lelo0\\Downloads\\Alocação21_ELETRÔNICA.xlsm", sheet_name="Área")
